@@ -23,7 +23,7 @@
 }
 
 .top-services-bg {
-    background-image: url('/assets/img/top-services-bg.jpg');
+    background-image: url('../img/top-services-bg.jpg');
 }
 
 .top-services h3 {
@@ -32,4 +32,30 @@
     margin-bottom: 0;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+}
+
+.text-col h6 {
+    color: #615cfd;
+    font-size: 14px;
+    z-index: 3;
+    font-weight: 500;
+    margin-bottom: 19px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.text-col h4 {
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #1f1f1f;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 15px;
+}
+
+.services-section {
+    padding-top: 155px;
+    padding-bottom: 130px;
 }
