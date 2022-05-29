@@ -9,29 +9,18 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/stylecont.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
 </head>
-
 <body>
 
-    <section class="contactBannerContainer col-12">
-        <h1 class="contactContainerTitle text-white">Contactanos</h1>
+    <section class="contactBannerContainer">
+       <h1 class="contactContainerTitle"">Contactanos</h1>
     </section>
-
-
-
-
+    
     <section>
-
-        <h1 class="contactContainerTitle">Contactanos</h1>
-
-        <div class="contact-container mx-auto my-auto">
-            <div>
-                <img src="assets/img/mimosa.gif" alt="mimosa.gif" width="200" height="200" border="0">
-            </div>
-            <div class="my-5">  
-                <div class="animation-container my-5">
-                    <form method='POST' class="mx-5">
+        <div class="contact-container m-auto">              
+                <div class="m-3 p-3">
+                    <form method='POST' class="form-contact" action="/assets/php/file.php">
+                        <h1 class="txt m-1">Escribenos y en breve nos pondremos en contacto contigo</h1>
                         <div class="form-group">
                             <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
                         </div>
@@ -50,11 +39,10 @@
                         <br>
                         <button class="btn btn-primary" type="submit">Enviar</button>
                     </form>
+                    <br>
                 </div>  
-                <div>
-                    <img src="assets/img/mimosa.gif" alt="mimosa.gif" width="200" height="200" border="0">
-                </div>
-            </div>
+                
+            
         </div>
 
     </section>
