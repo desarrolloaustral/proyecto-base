@@ -59,3 +59,7 @@
     padding-top: 155px;
     padding-bottom: 130px;
 }
+
+.cards {
+    display: flex;
+}
