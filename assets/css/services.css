@@ -34,7 +34,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.text-col h6 {
+.text-col {
+    margin-bottom: 73px;
+}
+
+.text-col span {
     color: #615cfd;
     font-size: 14px;
     z-index: 3;
@@ -45,7 +49,7 @@
 
 }
 
-.text-col h4 {
+.text-col h3 {
     font-size: 40px;
     line-height: 52px;
     font-weight: 400;
@@ -53,6 +57,7 @@
     position: relative;
     z-index: 0;
     padding-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .services-section {
@@ -60,17 +65,39 @@
     padding-bottom: 130px;
 }
 
-.card-body {
-    border-style: solid;
-    border-radius: 4px;
-    border-width: 2px;
-    border-color: #eaeaea;
-    height: 300px;
+.service-card {
+    border: 2px solid #e8e8e8;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 48px 35px 45px 35px;
+    transition: .3s;
 }
 
-.card-body:hover {
-    border-style: solid;
+.service-card:hover {
+    border: 2px solid #2f2bf7;
     border-radius: 4px;
-    border-width: 2px;
-    border-color: #2f2bf7;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #1f1f1f;
+    margin-bottom: 13px;
+}
+
+.service-card p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.icon {
+    margin-bottom: 29px;
 }
