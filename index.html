@@ -6,18 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desarrollo Austral</title>
 
+    <link rel="stylesheet" href="./assets/css/animate.css" />
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <nav
+      class="container mx-auto navbar navbar-expand-lg navbar-dark bg-dark shadow sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="#">Servicios</a>
+            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link" href="#">Contactos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
     <section class="homeContainer">
-      <h1 class="homeContainerTitle text-white">Desarrollo Austral</h1>
-      <h2 class="homeContainerSubtitle text-white">
-        Empresa de desarrollo y diseño web
-      </h2>
-      <button class="homeContainerBtnInfo btn btn-info">Ver Mas</button>
+      <div class="title">
+        <h1 class="homeContainerTitle text-white">Desarrollo Austral</h1>
+        <h4 class="homeContainerSubtitle text-white my-3">
+          Empresa de desarrollo y diseño web
+        </h4>
+        <button class="homeContainerBtnInfo btn btn-info">Ver Mas</button>
+      </div>
     </section>
 
+    <!-- Services -->
     <section class="homeServicesContainer my-5">
       <h1 class="text-center">
         With more than 20 years of experience we can <br />deliver the best
@@ -72,6 +113,7 @@
       </div>
     </section>
 
+    <!-- About Us -->
     <section class="homeAboutUsContainer my-5">
       <div class="row">
         <div class="col-6"></div>
@@ -89,22 +131,37 @@
       </div>
     </section>
 
+    <!-- Portfolio -->
     <section class="homePorftolioContainer my-5 container">
       <h2 class="text-center mb-5">Proyectos</h2>
       <div class="row my-2">
         <div class="col-6 p-2">
           <div class="card text-white bg-warning mx-auto border-0 shadow-sm">
-            <img class="card-img-top" src="./assets/img/portfolio/gomez-troche.com.png" alt="" />
+            <img
+              class="card-img-top"
+              src="./assets/img/portfolio/gomez-troche.com.png"
+              alt=""
+            />
           </div>
         </div>
         <div class="col-6 p-2">
           <div class="card text-white bg-warning mx-auto border-0 shadow-sm">
-            <img class="card-img-top" src="./assets/img/portfolio/gomez-troche.com.png" alt="" />
+            <img
+              class="card-img-top"
+              src="./assets/img/portfolio/gomez-troche.com.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Contacts -->
+    <section class="homeContactsContainer my-5 container">
+      <h2 class="text-center mb-5">Contactos</h2>
+    </section>
+
+    <!-- Footer -->
     <footer class="bg-dark"></footer>
 
     <script src="./assets/js/jquery-3.6.0.min.js"></script>

@@ -3,9 +3,17 @@ body {
   overflow-x: hidden;
 }
 
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  left: 6%;
+  border-radius: 2rem;
+  top: 2%;
+}
+
 /* HomeContainer styles */
 .homeContainer {
-  height: 100vh;
+  height: 70vh;
   background-image: url("../img/banner.png.webp");
   max-width: 100%;
   position: relative;
@@ -24,26 +32,19 @@ body {
   z-index: -1;
 }
 
-.homeContainerTitle {
+.homeContainer > div{
   position: absolute;
-  font-size: 4rem;
   top: 35%;
   left: 15%;
 }
 
-.homeContainerSubtitle {
-  position: absolute;
-  font-size: 1.5rem;
-  top: 45%;
-  left: 15.2%;
+.homeContainerTitle {
+  font-size: 4rem;
 }
 
 .homeContainerBtnInfo {
-  position: absolute;
-  top: 55%;
-  left: 15.2%;
   border-radius: 5rem;
-  width: 10%;
+  width: 20%;
 }
 
 /* HomeServices styles */
