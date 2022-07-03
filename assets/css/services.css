@@ -1,4 +1,11 @@
-/* ------------------  SECCION DE ARRIBA --------------------- */
+/* ------------------  ESTILOS GENERALES --------------------- */
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* ------------------  SECCION PRINCIPAL --------------------- */
 
 .top-services {
     background-size: cover;
@@ -35,7 +42,6 @@
     font-weight: 400;
     margin-bottom: 0;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
 }
 
 .text-col {
@@ -49,7 +55,6 @@
     font-weight: 500;
     margin-bottom: 19px;
     display: block;
-    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -61,7 +66,6 @@
     position: relative;
     z-index: 0;
     padding-bottom: 15px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* ------------------  SECCION DE SERVICIOS --------------------- */
@@ -196,7 +200,6 @@ img {
 
 .how-work .work-info .section-title .mid_text {
     font-size: 18px;
-    font-family: "Muli", sans-serif;
     color: #1f1f1f;
     font-weight: 400;
     margin-bottom: 25px;
@@ -208,3 +211,36 @@ img {
     font-weight: 400;
 }
 
+/* ------------------  SECCION SLIDER --------------------- */
+
+.quotes-section {
+    margin-top: 160px;
+    position: relative;
+    z-index: 0;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* 
+.carousel-inner::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+    z-index: -1;
+    content: '';
+    background: #1f1f1f;
+    opacity: .6;
+}
+
+
+ */
+
+/* .carousel-inner {
+    background: #000000;
+    opacity: .9;
+    z-index: -1;
+    content: '';
+} */
