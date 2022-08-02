@@ -19,6 +19,7 @@ body {
   position: relative;
   color: white;
   z-index: 1;
+  background-position: bottom;
 }
 
 .homeContainer::after {
