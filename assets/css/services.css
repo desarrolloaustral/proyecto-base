@@ -244,3 +244,7 @@ img {
     z-index: -1;
     content: '';
 } */
+
+.text-bg-quote {
+    background-color: rgba(50, 50, 50, 0.5);
+}
