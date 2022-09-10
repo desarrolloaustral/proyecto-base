@@ -35,7 +35,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: 5;
 }
 
 /* .header-image::before {
@@ -86,6 +85,7 @@ body {
   width: 100%;
   top: 50%;
   text-align: center;
+  z-index: 2;
 }
 
 .homeContainerBtnInfo {
@@ -99,6 +99,19 @@ body {
   top: 0;
   left: 0;
   z-index: 0;
+}
+
+.btn-explorar{
+  background: #155bd5;
+  color: #fff;
+  margin-top: 1%;
+  transition: .5s;
+}
+
+.btn-explorar:hover{
+  color: #fff;
+  background-color: #2f7bff;
+  border-color: #2f7bff;
 }
 
 /* HomeServices styles */
