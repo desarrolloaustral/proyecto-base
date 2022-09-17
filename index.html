@@ -169,11 +169,13 @@
 
     <!-- Footer -->
     <!-- <footer class="bg-dark"></footer> -->
-
+    
+    <script src="./assets/js/wow.min.js"></script>
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script>
+      new WOW().init();
       window.onload = function() {
         Particles.init({
           selector: '.bgParticles',
