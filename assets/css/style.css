@@ -1,15 +1,16 @@
 /* BodyStyles */
 body {
   overflow-x: hidden;
+  gap: 16px;
 }
 
 /* Navbar styles */
 .navbar {
+  text-align: center;
   position: fixed;
   height: 10%;
   width: 100%;
-  background-color: #155bd5;
-  box-shadow: #00000012 0px 0px 20px 0px;
+  background-color: #f7f7f7;
 }
 
 /* HomeContainer styles */
