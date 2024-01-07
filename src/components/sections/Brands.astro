@@ -1,0 +1,74 @@
+---
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+import Paragraph from "../shared/Paragraph.astro";
+---
+
+<section>
+    <Container className="space-y-8">
+        <div class="text-center max-w-3xl mx-auto gap-5">
+            <Title>Nosotros</Title>
+            <Paragraph className="mt-3">
+                Integrantes del equipo de trabajo.
+            </Paragraph>
+        </div>
+        <div class="flex justify-center flex-wrap gap-4">
+            <a href="https://www.linkedin.com/in/denis-luis-rybier-4a8237229/">
+                <div
+                    class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex gap-2"
+                >
+                    <img
+                        src="/images/denis.jpeg"
+                        width="100"
+                        height="60"
+                        alt="spotify"
+                        class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 rounded-full"
+                    />
+                    <Paragraph className="mt-2">Denis Rybier</Paragraph>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/ainlautaro/">
+                <div
+                    class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex gap-2"
+                >
+                    <img
+                        src="/images/ain.jpeg"
+                        width="100"
+                        height="60"
+                        alt="spotify"
+                        class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 rounded-full"
+                    />
+                    <Paragraph className="mt-2">Ain García Nahuelanca</Paragraph>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/sebastian-cereminati-paez-ab8681209/">
+                <div
+                    class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex gap-2"
+                >
+                    <img
+                        src="/images/sebastian.jpeg"
+                        width="100"
+                        height="60"
+                        alt="spotify"
+                        class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 rounded-full"
+                    />
+                    <Paragraph className="mt-2">Sebastian Cereminati</Paragraph>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/pablo-jesus-romano/">
+                <div
+                    class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex gap-2"
+                >
+                    <img
+                        src="/images/pablo.png"
+                        width="100"
+                        height="60"
+                        alt="spotify"
+                        class="h-7 sm:h-10 w-auto ease-linear duration-300 grayscale group-hover:!grayscale-0 group-hover:scale-105 rounded-full"
+                    />
+                    <Paragraph className="mt-2">Pablo Romano</Paragraph>
+                </div>
+            </a>
+        </div>
+    </Container>
+</section>
