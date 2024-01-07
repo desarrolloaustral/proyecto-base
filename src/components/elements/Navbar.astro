@@ -23,13 +23,13 @@ const navItems = [
 ];
 ---
 
-<header class="absolute inset-x-0 top-0 z-50 py-6">
+<header class="fixed inset-x-0 top-0 z-50 py-3 backdrop-blur-lg bg-gradient-to-b from-transparent to-transparent">
     <Container>
         <nav class="w-full flex justify-between gap-6 relative">
             <!-- logo -->
             <div class="min-w-max inline-flex relative">
                 <a href="/" class="relative flex items-center gap-3">
-                    <div class="relative w-9 h-9 overflow-hidden flex">
+                    <div class="relative w-8 h-8 overflow-hidden flex">
                             <svg
                                 id="Capa_2"
                                 data-name="Capa 2"
@@ -83,17 +83,6 @@ const navItems = [
                         })
                     }
                 </ul>
-
-                <!-- <div
-                    class="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-box-bg lg:border-0 px-6 lg:px-0"
-                >
-                    <BtnLink
-                        text="Get Started"
-                        href="#cta"
-                        className="flex justify-center w-full sm:w-max"
-                        variant="primary"
-                    />
-                </div> -->
             </div>
 
             <div class="min-w-max flex items-center gap-x-3">
@@ -107,7 +96,7 @@ const navItems = [
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6 dark:flex hidden"
+                        class="w-6 h-6 dark:flex hidden hover:text-sky-400 duration-300 ease-linear"
                     >
                         <path
                             stroke-linecap="round"
@@ -121,7 +110,7 @@ const navItems = [
                         viewBox="0 0 24 24"
                         stroke-width="1.5"
                         stroke="currentColor"
-                        class="w-6 h-6 dark:hidden"
+                        class="w-6 h-6 dark:hidden hover:text-yellow-500 duration-300 ease-linear"
                     >
                         <path
                             stroke-linecap="round"
