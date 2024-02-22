@@ -1,0 +1,100 @@
+---
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Info from "../cards/Info.astro";
+---
+
+<section id="proceso">
+    <Container className="space-y-8">
+        <div class="text-center max-w-3xl mx-auto gap-5">
+            <Title>Proceso</Title>
+            <Paragraph className="mt-3">
+                ¿Cómo es trabajar con nosotros? Nuestro proceso aplicado a cada proyecto se basa en una comunicación
+                efectiva y constante con el cliente.
+            </Paragraph>
+        </div>
+        <div
+            class="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 sm:grid sm:grid-cols-1 gap-4"
+        >
+            <Info
+                description="De forma virtual o presencial, según lo amerite cada caso, se realiza una o más reuniones con el cliente para la toma de requerimientos."
+                title="1. Reunión inicial"
+            >
+                <span slot="icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="none"
+                        class="w-4 h-4 sm:w-5 sm:h-5"
+                        ><path
+                            d="M23,15h-.667c-.25,0-.498,.019-.745,.057l-7.046-5.284,1.688-1.616c.399-.382,.413-1.016,.031-1.414-.383-.399-1.017-.412-1.414-.031l-4.173,3.995c-.208,.208-.491,.315-.788,.29-.298-.024-.56-.175-.739-.425-.274-.38-.19-.975,.168-1.334l4.703-4.429c.891-.837,2.284-1.042,3.374-.495l2.316,1.158c.69,.345,1.464,.527,2.235,.527h1.056c.553,0,1-.447,1-1s-.447-1-1-1h-1.056c-.463,0-.928-.109-1.342-.316l-2.314-1.158c-1.824-.913-4.153-.574-5.641,.828l-.618,.582-.7-.638c-.919-.837-2.109-1.298-3.39-1.298-.771,0-1.54,.182-2.227,.525l-2.314,1.158c-.415,.207-.88,.316-1.343,.316H1c-.553,0-1,.447-1,1s.447,1,1,1h1.056c.771,0,1.545-.183,2.236-.527l2.316-1.158c1.022-.514,2.458-.375,3.374,.462l.587,.535-2.646,2.492c-1.073,1.072-1.244,2.767-.398,3.938,.52,.723,1.553,1.259,2.444,1.259,.793,0,1.554-.312,2.104-.863l1.006-.963,6.346,4.759c-.031,.022-6.198,4.646-6.198,4.646-.723,.562-1.732,.562-2.47-.011l-6.091-4.568c-.859-.645-1.925-1-3-1h-.667c-.553,0-1,.447-1,1s.447,1,1,1h.667c.645,0,1.284,.213,1.8,.6l6.077,4.558c.725,.564,1.594,.846,2.461,.846,.862,0,1.723-.279,2.437-.835l6.093-4.568c.515-.387,1.154-.6,1.799-.6h.667c.553,0,1-.447,1-1s-.447-1-1-1Z"
+                        ></path></svg
+                    >
+                </span>
+            </Info>
+            <Info
+                description="Se analizan los requerimientos y se presenta al cliente el presupuesto y la documentación asociada que se requiera en cada caso."
+                title="2. Presentación de presupuesto"
+            >
+                <span slot="icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="none"
+                        class="w-4 h-4 sm:w-5 sm:h-5"
+                        ><path
+                            d="M18.656.93,6.464,13.122A4.966,4.966,0,0,0,5,16.657V18a1,1,0,0,0,1,1H7.343a4.966,4.966,0,0,0,3.535-1.464L23.07,5.344a3.125,3.125,0,0,0,0-4.414A3.194,3.194,0,0,0,18.656.93Zm3,3L9.464,16.122A3.02,3.02,0,0,1,7.343,17H7v-.343a3.02,3.02,0,0,1,.878-2.121L20.07,2.344a1.148,1.148,0,0,1,1.586,0A1.123,1.123,0,0,1,21.656,3.93Z"
+                        ></path><path
+                            d="M23,8.979a1,1,0,0,0-1,1V15H18a3,3,0,0,0-3,3v4H5a3,3,0,0,1-3-3V5A3,3,0,0,1,5,2h9.042a1,1,0,0,0,0-2H5A5.006,5.006,0,0,0,0,5V19a5.006,5.006,0,0,0,5,5H16.343a4.968,4.968,0,0,0,3.536-1.464l2.656-2.658A4.968,4.968,0,0,0,24,16.343V9.979A1,1,0,0,0,23,8.979ZM18.465,21.122a2.975,2.975,0,0,1-1.465.8V18a1,1,0,0,1,1-1h3.925a3.016,3.016,0,0,1-.8,1.464Z"
+                        ></path></svg
+                    >
+                </span>
+            </Info>
+            <Info
+                description="Se inicia el diseño y desarrollo del sistema, con reuniones intermedias para recibir el feedback del cliente y garantizar el cumplimiento de sus requerimientos."
+                title="3. Comienzo del diseño y desarrollo"
+            >
+                <span slot="icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="none"
+                        class="w-4 h-4 sm:w-5 sm:h-5"
+                        ><path
+                            d="M19,1H5A5.006,5.006,0,0,0,0,6v8a5.006,5.006,0,0,0,5,5h6v2H7a1,1,0,0,0,0,2H17a1,1,0,0,0,0-2H13V19h6a5.006,5.006,0,0,0,5-5V6A5.006,5.006,0,0,0,19,1ZM5,3H19a3,3,0,0,1,3,3v7H2V6A3,3,0,0,1,5,3ZM19,17H5a3,3,0,0,1-2.816-2H21.816A3,3,0,0,1,19,17Z"
+                        ></path></svg
+                    >
+                </span>
+            </Info>
+            <Info
+                description="Se procede a hacer entrega del sistema al cliente. Si es necesario, seguimos en contacto para realizar el mantenimiento correspondiente."
+                title="4. Lanzamiento del sistema"
+            >
+                <span slot="icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="30"
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="none"
+                        class="w-4 h-4 sm:w-5 sm:h-5"
+                        ><path
+                            d="M18,8.5a2.5,2.5,0,0,1-5,0A2.5,2.5,0,0,1,18,8.5Zm-.006,6.866a11.065,11.065,0,0,1-1.163,4.569A7.634,7.634,0,0,1,10,24H9V18.5A3.517,3.517,0,0,0,5.5,15H0V14A7.634,7.634,0,0,1,4.065,7.169,11.065,11.065,0,0,1,8.634,6.006,15.487,15.487,0,0,1,20.972,0h0A3.009,3.009,0,0,1,24,3,15.507,15.507,0,0,1,17.994,15.366ZM2.084,13H4.346A34.361,34.361,0,0,1,6.955,8.237a8.993,8.993,0,0,0-1.993.72A5.519,5.519,0,0,0,2.084,13Zm13.679,4.045A34.361,34.361,0,0,1,11,19.654v2.262a5.519,5.519,0,0,0,4.043-2.878A8.993,8.993,0,0,0,15.763,17.045ZM22,2.972A1,1,0,0,0,21,2c-5.16.147-8.65,2.124-12.018,6.822a29.92,29.92,0,0,0-2.471,4.271,5.5,5.5,0,0,1,4.4,4.4,29.92,29.92,0,0,0,4.271-2.471C19.876,11.65,21.853,8.16,22,2.972ZM6.122,17.879a3.015,3.015,0,0,1,0,4.242c-.907.906-3.622,1.465-4.748,1.664l-1.406.247.247-1.406c.2-1.126.758-3.841,1.664-4.748A3.073,3.073,0,0,1,6.122,17.879ZM5,20a.993.993,0,0,0-.293-.707,1,1,0,0,0-1.414,0A7.318,7.318,0,0,0,2.5,21.5a7.342,7.342,0,0,0,2.208-.794A.993.993,0,0,0,5,20Z"
+                        ></path></svg
+                    >
+                </span>
+            </Info>
+        </div>
+    </Container>
+</section>
