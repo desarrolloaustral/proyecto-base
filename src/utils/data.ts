@@ -35,6 +35,15 @@ const services = [
         href: 'https://doloresmoron.com.ar/',
         bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/doloresmoron.jpg')`,
     },
+    {
+      title: "Delta Workout",
+      description: "Diseño de identidad de imagen",
+      icon: `<svg width="24" height="24">
+      <image href="https://www.desarrolloaustral.com/clients-logos/deltaworkout.svg" width="24" height="24" />
+    </svg>`,
+      href: '',
+      bg: ``,
+  },
 ];
 
 export { services };
