@@ -7,6 +7,7 @@ const services = [
       </svg>`,
         href: 'https://brokstudio.com/',
         bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/brokstudio.jpg')`,
+        target: "_blank",
     },
     {
         title: "Desde la estepa",
@@ -15,7 +16,8 @@ const services = [
         <image href="https://www.desarrolloaustral.com/clients-logos/desdelaestepa.svg" width="24" height="24" />
       </svg>`,
         href: '',
-        bg: '',
+        bg: `background-image: url('https://www.desarrolloaustral.com/clients-logos/desdelaestepa.svg')`,
+        target: '_top',
     },
     {
         title: "PicPlug",
@@ -25,6 +27,7 @@ const services = [
       </svg>`,
         href: 'https://www.picplug420.com/',
         bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/picplug.jpg')`,
+        target: "_blank",
     },
     {
         title: "Dolores Morón",
@@ -34,6 +37,7 @@ const services = [
       </svg>`,
         href: 'https://doloresmoron.com.ar/',
         bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/doloresmoron.jpg')`,
+        target: "_blank",
     },
     {
       title: "Delta Workout",
@@ -42,7 +46,8 @@ const services = [
       <image href="https://www.desarrolloaustral.com/clients-logos/deltaworkout.svg" width="24" height="24" />
     </svg>`,
       href: '',
-      bg: ``,
+      bg: `background-image: url('https://www.desarrolloaustral.com/clients-logos/deltaworkout.svg')`,
+      target: '_top',
   },
 ];
 

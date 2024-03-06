@@ -7,11 +7,12 @@ export interface Props {
     icon: string;
     href: string;
     bg: string;
+    target: string;
 }
 
-const { title, description, icon, href, bg } = Astro.props;
+const { title, description, icon, href, bg, target } = Astro.props;
 ---
-<a href={href} target="_blank">
+<a href={href} target={target}>
 <div
     class="p-5 sm:p-6 lg:p-8 rounded-3xl border border-box-border bg-box-bg shadow-lg shadow-box-shadow relative overflow-hidden"
 >
@@ -32,7 +33,7 @@ const { title, description, icon, href, bg } = Astro.props;
             class="absolute w-32 aspect-square -bottom-16 -right-16 bg-primary/10 rounded-full"
         ></span>
         <div class="absolute inset-0 bg-black opacity-0 transition-opacity hover:opacity-50 z-1"></div>
-        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity hover:opacity-20 z-2" style={bg}></div>
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity transition hover:ease-in duration-500 hover:opacity-20 z-2" style={bg}></div>
         <div class="absolute inset-0 z-20 pointer-events-none"></div>
 </div>
 </a>

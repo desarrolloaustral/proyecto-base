@@ -12,6 +12,7 @@ type ServicesProps = {
     icon: string;
     href: string;
     bg: string;
+    target: string;
 };
 
 
@@ -31,7 +32,7 @@ type ServicesProps = {
             {
                     services.map((service: ServicesProps) => {
                     return (
-                            <Service title={service.title} description={service.description} icon={service.icon} href={service.href} bg={service.bg}>
+                            <Service title={service.title} description={service.description} icon={service.icon} href={service.href} bg={service.bg} target={service.target}>
                             </Service>
                             );
                     })
