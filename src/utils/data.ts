@@ -48,7 +48,17 @@ const services = [
       href: '',
       bg: `background-image: url('https://www.desarrolloaustral.com/clients-logos/deltaworkout.svg')`,
       target: '_top',
-  },
+    },
+    {
+      title: "Mariel Kenes",
+      description: "Laboratorio Dental - Diseño",
+      icon: `<svg width="24" height="24">
+      <image href="https://www.desarrolloaustral.com/clients-logos/mk-logo.svg" width="24" height="24" />
+    </svg>`,
+      href: '',
+      bg: `background-image: url('https://www.desarrolloaustral.com/clients-logos/mk-logo.svg')`,
+      target: '_top',
+    },
 ];
 
 export { services };

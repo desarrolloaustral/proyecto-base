@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: AcuminConcept-SemiCondThin, 'Acumin Variable Concept';
+        font-size: 33.52px;
+        font-variation-settings: 'wght' 100, 'wdth' 90, 'slnt' 0;
+        font-weight: 200;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #0b454f;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke: url(#Degradado_sin_nombre_34);
+        stroke-width: 4px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: MintSansRegular, MintSans;
+        font-size: 64.5px;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-11 {
+        letter-spacing: .01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: .02em;
+      }
+
+      .cls-18 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-19 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-20 {
+        letter-spacing: .03em;
+      }
+
+      .cls-21 {
+        fill: #fff;
+      }
+
+      .cls-21, .cls-22 {
+        stroke-width: 0px;
+      }
+
+      .cls-22 {
+        fill: url(#Degradado_sin_nombre_5);
+      }
+
+      .cls-23 {
+        letter-spacing: -.08em;
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_5" data-name="Degradado sin nombre 5" x1="232.22" y1="34.88" x2="293.73" y2="338.78" gradientUnits="userSpaceOnUse">
+      <stop offset=".02" stop-color="#40c6c2"/>
+      <stop offset=".36" stop-color="#20bdbe"/>
+      <stop offset=".46" stop-color="#1eb6b8"/>
+      <stop offset=".59" stop-color="#1ba5a8"/>
+      <stop offset=".73" stop-color="#178a8e"/>
+      <stop offset=".89" stop-color="#10636b"/>
+      <stop offset="1" stop-color="#0b454f"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_34" data-name="Degradado sin nombre 34" x1="244.34" y1="304.72" x2="256.85" y2="366.51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#116870"/>
+      <stop offset=".22" stop-color="#0f6169"/>
+      <stop offset=".55" stop-color="#0c4d57"/>
+      <stop offset=".67" stop-color="#0b454f"/>
+      <stop offset=".93" stop-color="#0b454f"/>
+      <stop offset="1" stop-color="#0b454f"/>
+    </linearGradient>
+  </defs>
+  <text class="cls-1" transform="translate(58.05 470.22) scale(1.22 1)"><tspan class="cls-20" x="0" y="0">L</tspan><tspan class="cls-12" x="17.33" y="0">A</tspan><tspan class="cls-4" x="36.23" y="0">B</tspan><tspan class="cls-16" x="55.03" y="0">O</tspan><tspan class="cls-17" x="77.52" y="0">R</tspan><tspan class="cls-15" x="97.09" y="0">A</tspan><tspan class="cls-19" x="113.11" y="0">T</tspan><tspan x="128.16" y="0">O</tspan><tspan class="cls-11" x="150.65" y="0">R</tspan><tspan class="cls-9" x="170.09" y="0">I</tspan><tspan class="cls-11" x="177.06" y="0">O</tspan><tspan x="199.95" y="0" xml:space="preserve"> D</tspan><tspan class="cls-3" x="229.48" y="0">E</tspan><tspan class="cls-14" x="247.17" y="0">N</tspan><tspan class="cls-23" x="269.42" y="0">T</tspan><tspan class="cls-13" x="283.1" y="0">A</tspan><tspan class="cls-10" x="302" y="0">L</tspan></text>
+  <g>
+    <path class="cls-22" d="M202.08,359.91c6.11-1.48,10.04-5.12,11.14-6.19,4.81-4.7,6.42-10.31,9.9-33.42,1.37-9.06,2.31-16.07,2.48-17.33,1.83-13.65,3.59-25.05,4.95-33.42.67-5.2,1.42-11.34,6.19-16.09,1.18-1.18,5.15-5.13,11.14-4.95,6.14.19,10.01,4.84,11.14,6.19,3.26,3.9,3.83,7.82,4.95,13.62,1.37,7.07,3.58,13.97,4.95,21.04,0,0,3.56,18.45,9.9,39.61,3.28,10.95,5.49,16.49,9.9,22.28,3.16,4.14,7.04,9.19,13.62,11.14,8.86,2.63,17.19-1.66,21.04-3.71,8.44-4.5,15.3-11.66,27.23-34.66,3.29-6.34,10.45-20.35,18.57-42.08,6.33-16.94,10.15-30.26,13-40.23,5.62-19.72,8.91-34.94,9.9-39.61,3.98-18.75,5.77-31.92,8.66-53.22,2.3-16.94,3.61-29.38,3.71-44.56.08-11.6-.59-19.55-3.71-28.47-2.01-5.75-4.88-13.94-12.38-21.04-9.96-9.43-21.95-11.11-30.94-12.38-16.98-2.39-30.38,1.54-33.42,2.48-10.52,3.25-11.58,6.23-33.42,14.85-1.77.7-7.84,3.07-16.09,4.95-10.79,2.47-16.12,2.01-19.8,1.24-3.48-.73-5.99-1.83-7.43-2.48-15.52-6.99-28.75-16.09-39.61-21.04-16.37-7.46-31.66-7.44-42.08-7.43-9.68.01-18.06.02-28.47,3.71-5.05,1.79-24.48,9-34.66,28.47-3.54,6.77-4.58,12.39-6.19,21.04-2.29,12.31-2.16,22.37-1.24,37.13,1.23,19.77,1.97,31.61,4.95,49.51,3.66,22.04,8.03,37.12,14.85,60.65,4.26,14.71,12.57,42,25.99,71.79,1.69,3.76,7.08,15.51,17.33,28.47,10.19,12.88,17.7,17.49,22.28,19.8,5.48,2.77,12.93,6.45,21.66,4.33Z"/>
+    <path class="cls-21" d="M226.62,74.49c-4.23,2.28,5,17.2,2.89,32.27-3.22,23.07-31.44,35.31-28.79,39.53,1.36,2.15,9.28-.11,14.12-2.35,10.42-4.83,19.62-15.62,22.36-18.83,2.11-2.47,3.79-4.69,7.06-5.88,2.63-.96,6.18-1.22,12.95,1.18,7.6,2.69,12.69,6.4,15.3,8.24,9.61,6.77,24.62,15.65,25.89,14.12,1.38-1.65-10.04-19.3-29.3-28.38-6.48-3.05-11.83-4.19-11.89-6.93-.09-3.98,11.09-5.31,25.89-15.3,6.19-4.18,13.76-10.37,12.95-11.77-.96-1.66-13.71,3.52-21.19,7.06-5.21,2.47-13.29,6.71-24.72,10.59-4.54,1.54-5.75,1.72-7.06,1.18-6.62-2.72-2.83-18.03-11.77-23.54-1.07-.66-3.21-1.98-4.71-1.18Z"/>
+    <path class="cls-5" d="M447.46,325.98c-49.72-4.96-110.49-8.19-179.5-5.77-85.94,3.01-158.79,13.87-214.78,25.24"/>
+    <path class="cls-6" d="M448.26,329.93c-49.72-4.96-110.49-8.19-179.5-5.77-85.94,3.01-158.79,13.87-214.78,25.24"/>
+  </g>
+  <text class="cls-2" transform="translate(61.88 429.5)"><tspan x="0" y="0">Mariel </tspan><tspan class="cls-8" x="209.25" y="0">K</tspan><tspan class="cls-7" x="245.95" y="0">en</tspan><tspan class="cls-18" x="322.97" y="0">e</tspan><tspan x="360.25" y="0">s</tspan></text>
+</svg>
