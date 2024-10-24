@@ -33,10 +33,33 @@ const { title } = Astro.props;
     <meta property="twitter:description" content="Desarrollo Austral es una empresa de desarrollo de software que se especializa en crear soluciones digitales personalizadas para empresas de todos los tamaños." />
     <meta property="twitter:image" content="/images/DA_Wallpaper.webp" />
     <title>Desarrollo Austral - {title}</title>
+
+    <link rel="canonical" href="https://desarrolloaustral.com/">
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Desarrollo Austral",
+        "url": "https://desarrolloaustral.com",
+        "description": "Desarrollo Austral es una empresa de desarrollo de software que se especializa en crear soluciones digitales personalizadas para empresas de todos los tamaños.",
+        "sameAs": [
+          "https://www.instagram.com/desarrolloaustral"
+        ],
+        "logo": "https://desarrolloaustral.com.ar/svg/favicon.svg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+54-9-297-544-5864",
+          "contactType": "Customer Service",
+          "areaServed": "AR",
+          "availableLanguage": ["Spanish", "English"]
+        },
+      })}
+    </script>
   </head>
   <body class="overflow-hidden overflow-y-auto bg-body">
     <Navbar />
