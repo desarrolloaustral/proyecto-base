@@ -1,9 +1,9 @@
 ---
-import Service from "../cards/Service.astro";
+import Client from "../cards/Client.astro";
 import Container from "../shared/Container.astro";
 import Paragraph from "../shared/Paragraph.astro";
 import Title from "../shared/Title.astro";
-import { services } from "../../utils/data.ts";
+import { clients } from "../../utils/data.ts";
 
 
 type ServicesProps = {
@@ -18,7 +18,7 @@ type ServicesProps = {
 
 ---
 
-<section id="services">
+<section id="clients">
     <Container className="space-y-10 md:sapce-y-12">
         <div class="text-center max-w-3xl mx-auto space-y-4">
             <Title>
@@ -28,12 +28,15 @@ type ServicesProps = {
                 Quienes han confiado en nosotros.
             </Paragraph>
         </div>
+        <div class="review-containers container-xs">
+            
+        </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {
-                    services.map((service: ServicesProps) => {
+                    clients.map((client: ServicesProps) => {
                     return (
-                            <Service title={service.title} description={service.description} icon={service.icon} href={service.href} bg={service.bg} target={service.target}>
-                            </Service>
+                            <Client title={client.title} description={client.description} icon={client.icon} href={client.href} bg={client.bg} target={client.target}>
+                            </Client>
                             );
                     })
             }

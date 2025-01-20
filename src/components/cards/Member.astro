@@ -1,0 +1,28 @@
+---
+import Paragraph from "../shared/Paragraph.astro";
+
+export interface Propss {
+    name: string;
+    src: string;
+    href: string;
+    target: string;
+}
+
+const { name, src, href, target } = Astro.props;
+---
+
+
+<a href={href} target={target}>
+    <div
+        class="p-4 sm:p-5 rounded-xl bg-body border border-box-border group flex gap-2"
+    >
+        <img
+            src={src}
+            width="100"
+            height="60"
+            alt="avatar"
+            class="h-7 sm:h-10 w-auto ease-linear duration-200 grayscale group-hover:!grayscale-0 group-hover:scale-105 rounded-full"
+        />
+        <Paragraph className="mt-2">{name}</Paragraph>
+    </div>
+</a>

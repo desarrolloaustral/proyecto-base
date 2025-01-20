@@ -1,7 +1,6 @@
 ---
 import Container from "../shared/Container.astro";
-import YearsOfExperience from "../shared/YearsOfExperience.astro";
-
+import { members, clients, yearsOfExperience } from "../../utils/data.ts";
 ---
 
 <section class="relative mt-12 md:mt-16">
@@ -13,7 +12,7 @@ import YearsOfExperience from "../shared/YearsOfExperience.astro";
       <h2
         class="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
       >
-        4
+        {members.length}
       </h2>
       <p class="mt-2 text-heading-3">Personas en el equipo</p>
     </div>
@@ -22,7 +21,7 @@ import YearsOfExperience from "../shared/YearsOfExperience.astro";
         <h2
           class="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
         >
-          5
+          {clients.length}
         </h2>
         <p class="mt-2 text-heading-3">Proyectos</p>
       </div>
@@ -31,7 +30,7 @@ import YearsOfExperience from "../shared/YearsOfExperience.astro";
         <h2
           class="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
         >
-          5
+          {clients.length}
         </h2>
         <p class="mt-2 text-heading-3">Clientes felices</p>
       </div>
@@ -40,7 +39,7 @@ import YearsOfExperience from "../shared/YearsOfExperience.astro";
         <h2
           class="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1"
         >
-          +<YearsOfExperience/>
+          +{yearsOfExperience}
         </h2>
         <p class="mt-2 text-heading-3">Años de experiencia</p>
       </div>

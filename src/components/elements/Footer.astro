@@ -1,12 +1,14 @@
 ---
 import Container from "../shared/Container.astro";
+
+const year = new Date().getFullYear();
 ---
 <div class="mt-16"></div>
 <footer class="relative  bg-gradient-to-tr from-gray-100 to-gray-200 dark:from-gray-900 py-8">
         <Container>
             <div class="flex justify-between items-center gap-6 md:text-lg text-heading-3">
                 <div>
-                    Desarrollo Austral &copy; <span id="year">2024</span> 
+                    Desarrollo Austral &copy; <span id="year">{ year }</span>
                 </div>
                 <div class="flex gap-2">
                     Hecho por <a href="#" class="font-semibold">

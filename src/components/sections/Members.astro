@@ -1,0 +1,34 @@
+---
+import Container from "../shared/Container.astro";
+import Title from "../shared/Title.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Member from "../cards/Member.astro";
+import { members } from "../../utils/data.ts";
+
+type MembersProps = {
+    name: string;
+    src: string;
+    href: string;
+    target: string;
+};
+---
+
+<section id="members">
+    <Container className="space-y-8">
+        <div class="text-center max-w-3xl mx-auto gap-5">
+            <Title>Nosotros</Title>
+            <Paragraph className="mt-3">
+                Integrantes del equipo de trabajo.
+            </Paragraph>
+        </div>
+        <div class="flex justify-center flex-wrap gap-4">
+            {
+                members.map((member: MembersProps) => {
+                    return (
+                        <Member name={member.name} src={member.src} href={member.href} target={member.target}></Member>
+                    );
+                })
+            }
+        </div>
+    </Container>
+</section>
