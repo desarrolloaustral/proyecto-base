@@ -16,7 +16,7 @@ const clients = [
         <image href="https://www.desarrolloaustral.com/clients-logos/desdelaestepa.svg" width="24" height="24" />
       </svg>`,
         href: 'https://desdelaestepa.com.ar',
-        bg: `background-image: url('https://www.desarrolloaustral.com/clients-logos/desdelaestepa.jpg')`,
+        bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/desdelaestepa.jpg')`,
         target: '_blank',
     },
     {
