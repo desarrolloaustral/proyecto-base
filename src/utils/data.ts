@@ -9,16 +9,16 @@ const clients = [
         bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/brokstudio.jpg')`,
         target: "_blank",
     },
-    {
-        title: "Desde la estepa",
-        description: "Sitio web de estética y belleza",
-        icon: `<svg width="24" height="24">
-        <image href="https://www.desarrolloaustral.com/clients-logos/desdelaestepa.svg" width="24" height="24" />
-      </svg>`,
-        href: 'https://desdelaestepa.com.ar',
-        bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/desdelaestepa.jpg')`,
-        target: '_blank',
-    },
+    // {
+    //     title: "Desde la estepa",
+    //     description: "Sitio web de estética y belleza",
+    //     icon: `<svg width="24" height="24">
+    //     <image href="https://www.desarrolloaustral.com/clients-logos/desdelaestepa.svg" width="24" height="24" />
+    //   </svg>`,
+    //     href: 'https://desdelaestepa.com.ar',
+    //     bg: `background-image: url('https://www.desarrolloaustral.com/clients-screens/desdelaestepa.jpg')`,
+    //     target: '_blank',
+    // },
     {
         title: "PicPlug",
         description: "Portal de noticias urbanas",
